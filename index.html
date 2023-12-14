@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+   <link rel="stylesheet" href="./style.css" />
+   <script src="https://kit.fontawesome.com/de882a784f.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+    
+    
+    <div id="header">
+        <h1>PORTFOLIO WEBSITE</h1>
+        
+        <div class="container">
+            
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#portfolio">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                   <a href="#"><i class="fa-solid fa-square-xmark" onclick="closemenu()"></i></a>
+                </ul>
+               <a href="#"><i class="fa-solid fa-bars" onclick="openmenu()"></i></a>
+            </nav>
+            <div class="header-text">
+                <h1>Hello, I'm<br><span>Mitsil </span> Grover</h1>
+                <p>A Web Developer, <br><span>passionate about exploring new &<br>emerging technologies</span></p>
+
+            </div>
+        </div>
+    </div>
+
+            <div id ="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                              <img src="laptop.png">
+                            </div>
+                        <div class="about-col-2">
+                        <h1 class ="sub-title">About Me</h1>
+                        <p>I am currently a  student at SRM University Chennai (Kattankulathur campus), pursuing a degree in  computer science and engineering. I've a  strong focus on  Data Structures, Operating Systems, Front end web developement, Python Programming, Formal Languages and Automata, Neurofuzzy and genetic Programming, MySQL,  and Data Mining.
+                            I am an enthusiastic and forward thinking student who is seeking to find the opportunity to work in a challenging working environment that will help me to explore my boundaries and my existing skills.
+                            Passionate about learning new things and eager to contribute my expertise in real-world projects of the company.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('Skills')" >Skills</p>
+                                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                                <p class="tab-links" onclick="opentab('Languages')">Languages</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="Skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                                    <li><span>Front- end Web Developement</span><br>Building Websites</li>
+                                    <li><span>Machine Learning</span><br>statistical analysis and mathematical data manipulation</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Education">
+                                <ul>
+                                    <li><span>Class 10 (2019)</span><br>Loreto Convent Tara Hall ,Shimla</li>
+                                    <li><span>Class 12 (2021)</span><br>Loreto Convent Tara Hall ,Shimla</li>
+                                    <li><span>Graduation (B.Tech)</span><br>SRM Institute of Science and Technology</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="Languages">
+                                <ul>
+                                    <li><span>C</span><br>Has a basic knowledge of the language with problem solving skills.</li>
+                                    <li><span>C++</span><br>Proficient in C++ with a focus on DSA & strong problem-solving and algorithmic skills.</li>
+                                    <li><span>Python</span><br>Proficient in Python, applying it to develop efficient and versatile solutions across various domains.</li>
+                                    <li><span>HTML & CSS</span><br>Expertise in HTML and CSS  and at crafting visually appealing and responsive web designs</li>
+                                </ul>
+                            </div>
+                      </div>
+                </div>
+            </div>
+         </div>
+         <!----------services-------->
+         <div id="skills">
+            <div class="container">
+                <h1 class ="sub-title">My Skills</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Passionate about web designing, with a focus on blending creativity and functionality to deliver visually stunning and user-centric digital experiences.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Specialized in UI/UX design, harmonizing aesthetics and functionality to create engaging and intuitive digital interfaces that elevate user experiences.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-brain"></i>
+                        <h2>Machine Learning</h2>
+                        <p>Proficient in machine learning, leveraging algorithms and data-driven insights to develop intelligent solutions that optimize processes and drive informed decision-making.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+
+                </div>
+
+            </div>
+         </div>
+         <!----------projects----------->
+         <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title"> My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="sign-lang.png">
+                        <div class="layer">
+                            <h3>Sign-language Converter</h3>
+                            <p>A technology that aims to bridge the communication gap between individuals who use sign language and those who may not understand sign language.
+                                It involves converting sign language gestures or signs into spoken or written language and vice versa.</p>
+                                <a href="#"><i class="fa-solid fa-ear-deaf"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="work">
+                        <img src="movie.png">
+                        <div class="layer">
+                            <h3>Movie Recommendation System</h3>
+                            <p> It aims to provide accurate movie recommendations to the user.
+                                It is an ML-based approach to filtering or predicting the users film preferences based on their past choices and behavior.</p>
+                               <a href="#"><i class="fa-solid fa-video"></i></a>
+                            </div>
+
+                    </div>
+                    <div class="work">
+                        <img src="tic-tac.png">
+                        <div class="layer">
+                            <h3>Tic-Tac-Toe</h3>
+                            <p> A simple and interesting game using Python project we can use NumPy, pygame modules to divide the tic tac toe Python project into multiple steps.
+                                It keeps a parallel track of our game and the final step is to execute our entire program to help both the player play the game and record their victories too.</p>
+                                <a href="#"><i class="fa-solid fa-chess-board"></i></a> 
+                                       
+                        </div>
+
+                    </div>
+                </div>
+               <a href="#" class="btn">See more</a> 
+
+            </div>
+         </div>
+         <!------contact------->
+         <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-phone"></i>7590055595</p>
+                <p><i class="fa-solid fa-envelope"></i>mk5408@srmist.edu.in</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mitsil-grover- 625235221"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/mitsil-27"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/mitsil_grover27/"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="Mitsil's resume final.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+                <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+ </div>
+         <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+         </script>
+         <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.left = "0";
+            }
+            function closemenu(){
+                sidemenu.style.left = "-200px";
+            }
+         </script>
+         
+        
+
+    
+    
+    </body>
+    </html>
